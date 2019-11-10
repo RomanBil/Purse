@@ -16,6 +16,8 @@ namespace Purse
             bc.CountUAH = 100;
 
             bc.ShowBalance();
+
+            Console.WriteLine(" ");
         }
     }
 }
