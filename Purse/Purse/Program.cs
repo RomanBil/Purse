@@ -19,7 +19,7 @@ namespace Purse
 
             bc.ShowBalance();
             m.ShowMoney();
-            Console.WriteLine(" ");
+            Console.WriteLine("... ");
 
 
             CreditCard cr = new CreditCard();
