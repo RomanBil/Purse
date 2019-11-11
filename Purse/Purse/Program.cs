@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BusinessCards;
 using CreditCards;
+using Moneys;
 
 namespace Purse
 {
@@ -13,11 +14,11 @@ namespace Purse
         static void Main(string[] args)
         {
             BusinessCard bc = new BusinessCard();
-
+            Money m = new Money();
             bc.CountUAH = 100;
 
             bc.ShowBalance();
-
+            m.ShowMoney();
             Console.WriteLine(" ");
 
 
