@@ -55,10 +55,6 @@
       <Project>{5f1e082e-9669-469d-95d2-550ad21f537e}</Project>
       <Name>BusinessCards</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CreditCards\CreditCards.csproj">
-      <Project>{0b22f23e-2786-459e-86d8-aef307b33e6a}</Project>
-      <Name>CreditCards</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
