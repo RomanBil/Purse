@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessCards;
+using CreditCards;
 
 namespace Purse
 {
@@ -18,6 +19,12 @@ namespace Purse
             bc.ShowBalance();
 
             Console.WriteLine(" ");
+
+
+            CreditCard cr = new CreditCard();
+            cr.ShowBalance();
+
+
         }
     }
 }
